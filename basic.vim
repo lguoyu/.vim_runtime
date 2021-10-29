@@ -52,6 +52,8 @@ nmap <leader>w :w!<cr>
 " (useful for handling the permission-denied error)
 command! W execute 'w !sudo tee % > /dev/null' <bar> edit!
 
+" set default clipboard
+set clipboard=unnamed
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
